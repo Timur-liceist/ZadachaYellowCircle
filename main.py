@@ -24,8 +24,6 @@ class Window(QMainWindow):
 
     def paint(self):
         self.repaint()
-
-
 def except_hook(cls, exception, traceback):
     sys.__excepthook__(cls, exception, traceback)
 
